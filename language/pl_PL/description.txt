@@ -1,0 +1,1 @@
+Zastępuje adres email webmastera fałszywym adresem w mailach powiadamiających.
