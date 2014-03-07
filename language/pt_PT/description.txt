@@ -1,0 +1,1 @@
+Substituir,nos mails notificação, o email do webmaster por um mail fictício. 
