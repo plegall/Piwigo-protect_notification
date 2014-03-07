@@ -1,0 +1,1 @@
+Remplaza el email del webmaster por una dirección falsa en los emails de notificación.
