@@ -1,0 +1,1 @@
+Nahradí správcovu emailovou adresu za fiktivní adresu v notifikačních emailech
