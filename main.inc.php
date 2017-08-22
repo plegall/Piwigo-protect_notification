@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Protect Notification
-Version: 2.3.a
+Version: 2.9.a
 Description: Replace the webmaster email address by a fake address in notification emails
-Plugin URI: http://piwigo.org/ext/extension_view.php?eid=
+Plugin URI: http://piwigo.org/ext/extension_view.php?eid=735
 Author: plg
-Author URI: http://piwigo.wordpress.com
+Author URI: http://piwigo.org/forum/profile.php?id=2
 */
 
 if (!defined('PHPWG_ROOT_PATH'))
@@ -23,7 +23,7 @@ add_event_handler('loc_end_page_tail', 'protect_remove_contact_link_footer');
 function protect_remove_contact_link_footer()
 {
   global $template;
-  
+
   $template->assign('CONTACT_MAIL', null);
 }
 ?>
